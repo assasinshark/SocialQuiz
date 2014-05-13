@@ -6,17 +6,19 @@
 //  Copyright (c) 2014 Jair Serrano. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "VWPrincipal.h"
 
-@interface ViewController ()
+@interface VWPrincipal ()
 
 @end
 
-@implementation ViewController
+@implementation VWPrincipal
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [[NSUserDefaults standardUserDefaults] setValue:@"1" forKey:@"idJug"];
+    [[NSUserDefaults standardUserDefaults] setValue:@"http://148.239.63.25:8080/SWSocialQuiz/webresources" forKey:@"urlserv"];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -1,13 +1,13 @@
 //
-//  ViewController.h
+//  VWResultado.h
 //  SocialQuiz
 //
-//  Created by Jair Serrano on 25/03/14.
+//  Created by Jair Serrano on 07/04/14.
 //  Copyright (c) 2014 Jair Serrano. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface VWResultado : UIViewController
 
 @end
